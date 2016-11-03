@@ -1,0 +1,46 @@
+* {
+    webkit-box-sizing: border-box;
+    moz-box-sizing: border-box;
+    ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    height: 110px;
+    background-color: #33bebe;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 55px;
+    color: white;
+    font-weight: 100;
+    padding-top: 42px;
+    padding-left: 20px;
+    letter-spacing: 3px;
+}
+
+.app {
+    webkit-display: flex;
+    display: flex;
+}
+
+.description {
+    color: #7c8b88;
+    font-size: 21px;
+    padding-left: 15px;
+}
+
+.description a {
+    text-decoration: none;
+    color: #215177;
+}
+
+.description a:hover {
+    text-decoration: underline;
+}
+
+.description a:focus {
+    color: purple;
+}
